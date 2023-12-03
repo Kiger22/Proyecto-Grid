@@ -10,13 +10,11 @@
 
 /* Resto del CSS */
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-  
-
 
 .school {
   background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/d8ce469044b958508f4bdbab/blueschoolbackpackwithessentialsupplies_232148207678.jpg);
@@ -41,20 +39,20 @@
   background-size: cover;
 }
 
-section{
+section {
   width: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-body{
+body {
   width: 70%;
   /* height: 90svh; */
   margin: auto;
   margin-top: 20px;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   text-align: center;
   justify-content: center;
   align-content: center;
@@ -62,33 +60,33 @@ body{
   padding: 5px;
 }
 
-body > *{
+body > * {
   min-width: 300px;
 }
 
-header{
+header {
   background-color: var(--blue-color);
   color: var(--primary-color);
- /*  font-size: small; */
+  /*  font-size: small; */
   display: grid;
   grid-row: 1/3;
   object-fit: cover;
   object-position: center;
 }
 
-h1{
+h1 {
   font-size: medium;
-  text-transform:uppercase;
+  text-transform: uppercase;
   padding-top: var(--spacing);
 }
 
-header > p{
+header > p {
   text-align: justify;
   padding: 10px;
   font-size: small;
 }
 
-main{
+main {
   background-color: var(--primary-color);
   color: var(--blue-color);
   border: var(--border);
@@ -96,11 +94,11 @@ main{
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size:small;
-  text-transform:uppercase;
+  font-size: small;
+  text-transform: uppercase;
 }
 
-footer{
+footer {
   grid-row: 3/4;
   grid-column: 2/-1;
   text-align: start;
@@ -108,14 +106,14 @@ footer{
   color: var(--primary-color);
   font-size: small;
   display: grid;
- /*  grid-template-columns: repeat(5,1fr); */
-  grid-template-rows: repeat(3,1fr);
+  /*  grid-template-columns: repeat(5,1fr); */
+  grid-template-rows: repeat(3, 1fr);
   padding: var(--spacing);
   align-items: start;
   justify-items: start;
 }
 
-footer button{
+footer button {
   cursor: pointer;
   padding: 10px 20px;
   margin: 10px;
@@ -125,14 +123,14 @@ footer button{
   justify-content: start;
 }
 
-h3{
-  text-transform:uppercase;
+h3 {
+  text-transform: uppercase;
 }
 
 @media (max-width: 500px) {
   body {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 150px);
+    grid-template-rows: repeat(5, 180px);
   }
   header {
     grid-row: auto; /* Ajusta la posición del encabezado */
