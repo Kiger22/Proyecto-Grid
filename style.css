@@ -130,18 +130,18 @@ h3 {
 @media (max-width: 500px) {
   body {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 180px);
+    grid-template-rows: repeat(9, 222px);
   }
   header {
-    grid-row: auto; /* Ajusta la posición del encabezado */
+    grid-row: 1/3;
     grid-column: auto;
   }
   main {
-    grid-row: auto; /* Ajusta la posición del contenido principal */
+    grid-row: auto;
     grid-column: auto;
   }
   footer {
-    grid-row: auto; /* Ajusta la posición del pie de página */
+    grid-row: -1/-3;
     grid-column: auto;
   }
 }
